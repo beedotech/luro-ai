@@ -65,7 +65,7 @@ const MobileMenu = ({ isOpen, setIsOpen }: Props) => {
                                 >
                                     <Link href="/" className="flex items-center w-full text-start">
                                         <Captions className="w-4 h-4 mr-2" />
-                                        Caption Generation
+                                        Geração de Ideias
                                     </Link>
                                 </li>
                                 <li
@@ -73,7 +73,7 @@ const MobileMenu = ({ isOpen, setIsOpen }: Props) => {
                                 >
                                     <Link href="/" className="flex items-center w-full text-start">
                                         <CalendarClock className="w-4 h-4 mr-2" />
-                                        Post Scheduling
+                                        Planejamento Estratégico
                                     </Link>
                                 </li>
                                 <li
@@ -81,7 +81,7 @@ const MobileMenu = ({ isOpen, setIsOpen }: Props) => {
                                 >
                                     <Link href="/" className="flex items-center w-full text-start">
                                         <LineChart className="w-4 h-4 mr-2" />
-                                        Analytics Dashboard
+                                        Dashboard de Métricas
                                     </Link>
                                 </li>
                             </AccordionContent>
@@ -127,7 +127,7 @@ const MobileMenu = ({ isOpen, setIsOpen }: Props) => {
                                 >
                                     <Link href="/" className="flex items-center w-full text-start">
                                         <FileText className="w-4 h-4 mr-2" />
-                                        Case Studies
+                                        Casos de Sucesso
                                     </Link>
                                 </li>
                                 <li
@@ -135,7 +135,7 @@ const MobileMenu = ({ isOpen, setIsOpen }: Props) => {
                                 >
                                     <Link href="/" className="flex items-center w-full text-start">
                                         <Box className="w-4 h-4 mr-2" />
-                                        Tools
+                                        Ferramentas
                                     </Link>
                                 </li>
                                 <li

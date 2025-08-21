@@ -38,22 +38,22 @@ const Menu = () => {
                                     >
                                         <Icons.icon className="w-6 h-6" />
                                         <div className="my-2 text-lg font-normal">
-                                            Luro AI
+                                            Clout AI
                                         </div>
                                         <p className="text-sm text-muted-foreground">
-                                            Your ultimate social media management tool
+                                            Sua plataforma definitiva de Growth Advisor
                                         </p>
                                     </Link>
                                 </NavigationMenuLink>
                             </li>
-                            <Item title="Content Calendar" href="/features/content-calendar" icon={<CalendarRangeIcon className="w-5 h-5" />}>
-                                Plan and visualize your content strategy.
+                            <Item title="Métricas de Crescimento" href="/features/growth-metrics" icon={<CalendarRangeIcon className="w-5 h-5" />}>
+                                Monitore e visualize o desempenho da sua startup.
                             </Item>
-                            <Item title="Hashtag Manager" href="/features/hashtag-manager" icon={<HashIcon className="w-5 h-5" />}>
-                                Research and track trending hashtags.
+                            <Item title="Análise de Mercado" href="/features/market-analysis" icon={<HashIcon className="w-5 h-5" />}>
+                                Pesquise e analise tendências de mercado.
                             </Item>
-                            <Item title="Competitor Analysis" href="/features/competitor-analysis" icon={<UsersIcon className="w-5 h-5" />}>
-                                Monitor and analyze competitor performance.
+                            <Item title="Benchmarking de Concorrentes" href="/features/competitor-benchmarking" icon={<UsersIcon className="w-5 h-5" />}>
+                                Compare e avalie o desempenho dos seus concorrentes.
                             </Item>
                         </ul>
                     </NavigationMenuContent>

@@ -14,7 +14,7 @@ const Perks = () => {
                         Discover the benefits
                     </h2>
                     <p className="text-base md:text-lg text-center text-accent-foreground/80 mt-6">
-                        Explore the powerful features and advantages that Luro offer to help you grow your social media presence
+                        Explore os recursos e vantagens poderosas que a Clout AI oferece para te ajudar a impulsionar o crescimento da sua startup.
                     </p>
                 </div>
             </Container>

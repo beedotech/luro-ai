@@ -13,59 +13,54 @@ type PLAN = {
 export const PLANS: PLAN[] = [
     {
         id: "free",
-        title: "Free",
-        desc: "Get started with essential tools for social media content creation",
+        title: "Básico",
+        desc: "Comece a impulsionar o crescimento da sua startup com ferramentas essenciais.",
         monthlyPrice: 0,
         yearlyPrice: 0,
-        buttonText: "Get Started",
+        buttonText: "Começar Gratuitamente",
         features: [
-            "Basic AI content generation",
-            "4 social media integrations",
-            "Community support",
-            "1 project limit",
-            "Standard analytics",
-            "Basic image generation"
+            "Geração básica de insights de IA",
+            "Acesso a 1 projeto",
+            "Suporte da comunidade",
+            "Análise de métricas limitada"
         ],
-        link: "https://stripe.com/free-plan-link"
+        link: "#"
     },
     {
         id: "pro",
-        title: "Pro",
-        desc: "Unlock advance features for enhanced content and strategy",
+        title: "Premium",
+        desc: "Desbloqueie recursos avançados para estratégias de crescimento aprimoradas e escaláveis.",
         monthlyPrice: 10,
         yearlyPrice: 120,
-        badge: "Most Popular",
-        buttonText: "Upgrade to Pro",
+        badge: "Mais Popular",
+        buttonText: "Assinar Plano Premium",
         features: [
-            "Advanced AI content generation",
-            "10 social media integrations",
-            "Priority email support",
-            "10 project limit",
-            "Enhanced analytics & insights",
-            "Pro model image generation",
-            "Team collaboration tools",
-            "Custom branding options"
+            "Geração avançada de insights de IA",
+            "Acesso a 5 projetos",
+            "Suporte prioritário por e-mail",
+            "Análise de métricas detalhada",
+            "Ferramentas de colaboração em equipe",
+            "Dashboard de Crescimento Personalizável",
+            "Recomendações Estratégicas de IA"
         ],
-        link: "https://stripe.com/pro-plan-link"
+        link: "#"
     },
     {
         id: "enterprise",
-        title: "Enterprise",
-        desc: "Tailored solutions for large organizations and agencies",
+        title: "Empresarial",
+        desc: "Soluções personalizadas e otimizadas para grandes startups e empresas.",
         monthlyPrice: 15,
         yearlyPrice: 180,
-        badge: "Contact Sales",
-        buttonText: "Upgrade to Enterprise",
+        badge: "Entre em Contato",
+        buttonText: "Fale com Vendas",
         features: [
-            "Unlimited AI content generation",
-            "All social media integrations",
-            "Dedicated account manager",
-            "Unlimited projects",
-            "Custom analytics & reporting",
-            "Enterprise-grade security",
-            "Free updates",
-            // "24/7 priority support"
+            "Geração ilimitada de insights de IA",
+            "Projetos ilimitados",
+            "Gerente de conta dedicado",
+            "Análise e relatórios personalizados",
+            "Segurança de nível empresarial",
+            "Atualizações gratuitas"
         ],
-        link: "https://stripe.com/enterprise-plan-link"
+        link: "#"
     }
 ];
