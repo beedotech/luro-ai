@@ -40,7 +40,7 @@ const Hero = () => {
                 <div className="flex items-center justify-center md:gap-x-6 mt-8">
                     <Button asChild size="lg">
                         <Link href="/app">
-                            Start for free
+                            Start Now
                         </Link>
                     </Button>
                     <Button asChild size="lg" variant="outline" className="hidden md:flex">

@@ -14,10 +14,10 @@ const Features = () => {
                 <div className="flex flex-col items-center text-center max-w-2xl mx-auto">
                     <SectionBadge title="Features" />
                     <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading font-medium !leading-snug mt-6">
-                        Impulsione o crescimento da sua <br /> startup com IA
+                        Impulsione o crescimento <br /> da sua Startup
                     </h2>
                     <p className="text-base md:text-lg text-center text-accent-foreground/80 mt-6">
-                        Transforme sua estratégia de crescimento com os recursos inovadores da Clout AI, projetados para otimizar suas decisões e resultados como nunca antes.
+                        Transforme sua estratégia de crescimento com os recursos inovadores da Clout AI, projetados para otimizar suas decisões e resultados.
                     </p>
                 </div>
             </Container>
@@ -40,10 +40,10 @@ const Features = () => {
                                     </div>
                                     <div className="flex flex-col">
                                         <h4 className="text-xl font-heading font-medium heading ">
-                                            Get advanced analytics
+                                            Advanced analytics
                                         </h4>
                                         <p className="text-sm md:text-base mt-2 text-muted-foreground">
-                                            Track your performance with detailed analytics and optimize to get better results.
+                                            Acompanhe seu desempenho com análises detalhadas e otimize para obter melhores resultados.
                                         </p>
                                     </div>
                                 </div>
@@ -60,10 +60,10 @@ const Features = () => {
                                     </div>
                                     <div className="flex flex-col mt-auto">
                                         <h4 className="text-xl font-heading font-medium heading">
-                                            Content ideation
+                                            Clout Copilot
                                         </h4>
                                         <p className="text-sm md:text-base mt-2 text-muted-foreground">
-                                            Generate ideas for your content with our AI-powered tools to create engaging posts in seconds.
+                                            Receba insights para o crescimento do seu negócio com nossa ferramenta de AI.
                                         </p>
                                     </div>
                                 </div>

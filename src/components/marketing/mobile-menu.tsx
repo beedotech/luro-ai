@@ -4,7 +4,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { cn } from "@/functions";
 import { useClickOutside } from "@/hooks";
 import { motion } from "framer-motion";
-import { Box, CalendarClock, Captions, CircleHelp, CopyCheck, FileText, Gem, Layers3, LineChart, Newspaper, UserCog, Waypoints } from "lucide-react";
+import { Box, CircleHelp, CopyCheck, FileText, Gem, Layers3, Newspaper, UserCog, Waypoints, SearchCheck, ChartNoAxesCombined, Brain, LogIn } from "lucide-react";
 import Link from "next/link";
 import React from 'react';
 
@@ -51,6 +51,15 @@ const MobileMenu = ({ isOpen, setIsOpen }: Props) => {
                             How it works
                         </Link>
                     </li>
+                    <li
+                        onClick={() => setIsOpen(false)}
+                        className="w-full px-4 py-2 text-lg font-normal transition transform rounded-md cursor-pointer text-foreground text-start active:scale-95 hover:bg-muted/20 active:opacity-80 bg-primary text-primary-foreground hover:opacity-70"
+                    >
+                        <Link href="/login" className="flex items-center w-full text-start">
+                            <LogIn className="w-4 h-4 mr-2" />
+                            Login
+                        </Link>
+                    </li>
                     <Accordion type="single" collapsible className="w-full">
                         <AccordionItem value="item-1" className="border-transparent">
                             <AccordionTrigger className="px-4 py-2 text-lg hover:text-muted-foreground font-normal">
@@ -63,25 +72,25 @@ const MobileMenu = ({ isOpen, setIsOpen }: Props) => {
                                 <li
                                     className="w-full px-4 py-2 text-lg font-normal transition transform rounded-md cursor-pointer text-foreground/80 hover:text-muted-foreground text-start active:scale-95 hover:bg-muted/20 active:opacity-80"
                                 >
-                                    <Link href="/" className="flex items-center w-full text-start">
-                                        <Captions className="w-4 h-4 mr-2" />
-                                        Geração de Ideias
+                                    <Link href="/features/diagnostico-full" className="flex items-center w-full text-start">
+                                        <SearchCheck className="w-4 h-4 mr-2" />
+                                        Diagnóstico Full
                                     </Link>
                                 </li>
                                 <li
                                     className="w-full px-4 py-2 text-lg font-normal transition transform rounded-md cursor-pointer text-foreground/80 hover:text-muted-foreground text-start active:scale-95 hover:bg-muted/20 active:opacity-80"
                                 >
-                                    <Link href="/" className="flex items-center w-full text-start">
-                                        <CalendarClock className="w-4 h-4 mr-2" />
-                                        Planejamento Estratégico
+                                    <Link href="/features/growth-metrics" className="flex items-center w-full text-start">
+                                        <ChartNoAxesCombined className="w-4 h-4 mr-2" />
+                                        Métricas de Crescimento
                                     </Link>
                                 </li>
                                 <li
                                     className="w-full px-4 py-2 text-lg font-normal transition transform rounded-md cursor-pointer text-foreground/80 hover:text-muted-foreground text-start active:scale-95 hover:bg-muted/20 active:opacity-80"
                                 >
-                                    <Link href="/" className="flex items-center w-full text-start">
-                                        <LineChart className="w-4 h-4 mr-2" />
-                                        Dashboard de Métricas
+                                    <Link href="/features/copilot-ai" className="flex items-center w-full text-start">
+                                        <Brain className="w-4 h-4 mr-2" />
+                                        Copilot
                                     </Link>
                                 </li>
                             </AccordionContent>
