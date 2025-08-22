@@ -50,7 +50,7 @@ const Navbar = () => {
                         <div className="items-center flex gap-2 lg:gap-4">
                             <Button size="sm" variant="white" asChild className="hidden sm:flex">
                                 <Link href="#">
-                                    Saiba Mais
+                                    Start Now
                                     <ArrowRightIcon className="w-4 h-4 ml-2 hidden lg:block" />
                                 </Link>
                             </Button>
