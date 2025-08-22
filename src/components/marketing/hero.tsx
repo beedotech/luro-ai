@@ -33,7 +33,7 @@ const Hero = () => {
             />
             <Container delay={0.1}>
                 <p className="text-sm sm:text-base lg:text-lg mt-4 text-accent-foreground/60 max-w-2xl mx-auto">
-                    Eleve sua presença no mercado com uma plataforma de Growth Advisor baseada em IA. <span className="hidden sm:inline">Clout AI é a solução completa para as necessidades de crescimento da sua startup.</span>
+                    Eleve o patamar do seu negócio com uma plataforma de Growth Advisor baseada em IA. <span className="hidden sm:inline">Clout AI é uma solução completa para o crescimento da sua startup.</span>
                 </p>
             </Container>
             <Container delay={0.2}>

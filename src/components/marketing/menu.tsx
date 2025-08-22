@@ -1,7 +1,7 @@
 "use client"
 
 import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger } from "@/components/ui/navigation-menu";
-import { CalendarRangeIcon, CircleHelp, HashIcon, Newspaper, UsersIcon } from 'lucide-react';
+import { CalendarRangeIcon, CircleHelp, HashIcon, Newspaper, UsersIcon, ChartNoAxesCombined, Brain, SearchCheck } from 'lucide-react';
 import Link from 'next/link';
 import React from 'react';
 import Icons from "../global/icons";
@@ -41,19 +41,19 @@ const Menu = () => {
                                             Clout AI
                                         </div>
                                         <p className="text-sm text-muted-foreground">
-                                            Sua plataforma definitiva de Growth Advisor
+                                            Plataforma de Growth Advisor
                                         </p>
                                     </Link>
                                 </NavigationMenuLink>
                             </li>
-                            <Item title="Métricas de Crescimento" href="/features/growth-metrics" icon={<CalendarRangeIcon className="w-5 h-5" />}>
+                            <Item title="Diagnóstico Full" href="/features/diagnostico-full" icon={<SearchCheck className="w-5 h-5" />}>
+                                Assessment completo para entender o seu negócio.
+                            </Item>
+                            <Item title="Métricas de Crescimento" href="/features/growth-metrics" icon={<ChartNoAxesCombined className="w-5 h-5" />}>
                                 Monitore e visualize o desempenho da sua startup.
                             </Item>
-                            <Item title="Análise de Mercado" href="/features/market-analysis" icon={<HashIcon className="w-5 h-5" />}>
-                                Pesquise e analise tendências de mercado.
-                            </Item>
-                            <Item title="Benchmarking de Concorrentes" href="/features/competitor-benchmarking" icon={<UsersIcon className="w-5 h-5" />}>
-                                Compare e avalie o desempenho dos seus concorrentes.
+                            <Item title="Copilot" href="/features/copilot-ai" icon={<Brain className="w-5 h-5" />}>
+                                AI para ajudar no crescimento da sua startup.
                             </Item>
                         </ul>
                     </NavigationMenuContent>
